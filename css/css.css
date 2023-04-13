@@ -1,0 +1,268 @@
+body {background-color: #fff; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    top: 0px;
+    left: 0px;}
+
+nav {background-color: #d1afe0;
+    width: 100%;
+    position:absolute;
+    height:100px; 
+    left: 0px;
+    top: 0px;}
+
+.logo {position: relative;
+     left: 30px;
+     top: 15px;}
+
+nav a {position: relative; 
+    left: 1250px;
+    top: -10px; 
+    text-decoration: none; 
+    color:#3d1a06; 
+    padding-left: 22px;
+    font-size: 17px;}
+
+nav a:hover {color: #fff;}
+
+.fundo {position: relative;
+    top: 10px;
+    left: 18%;
+    margin-top: 11%;}
+
+.eu {position: relative;
+    left: 2%;
+    top: 40px;}
+.eu{transition: all 1s;cursor: pointer;}
+.eu:hover{transform: scale(1.2);}
+
+p {width: 38%;
+text-align:center;
+position: relative;
+line-height: 30px;
+left: 40%;
+margin-top: -11%;
+font-size: 20px;}
+
+.fundo2 {position: absolute;
+    top: 820px;
+    left: 64%;}
+
+.marca {background-color: #fff;
+    position: absolute;
+    top: 820px;
+    left: 65%;
+    border: 5px;
+    border-color: black;}
+.marca{transition: all 1s;cursor: pointer;}
+.marca:hover{transform: scale(1.2);}
+
+.prazer{position: absolute;
+        top: 470px;
+        left: 41%;
+        height: 50px;
+        width: 35%;
+        background-color: #d1afe0;
+        font-size: 30px;
+        color: #fff;
+        text-align: center;}
+
+.sobre {position: absolute;
+    top: 1050px;
+    left: 21%;
+    height: 50px;
+    width: 35%;
+    background-color: #d1afe0;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;}
+
+.text2  {width: 38%;
+    text-align:center;
+    position: relative;
+    line-height: 30px;
+    left: 19%;
+    margin-top: 15%;
+    font-size: 20px;}
+
+footer {background-color:#d1afe0; 
+    text-align: center; 
+    font-size: 19px;}
+
+.botao1 {background-color:#d1afe0; 
+    width: 100%;
+    left: 0px;
+    text-align: center; 
+    font-size: 19px;
+    position: absolute;
+    top: 4000px}
+
+.botao a {color: #ffffff;}
+
+
+
+
+    .slider {
+        display: block;
+        height: 293px;
+        width: 750px;
+        margin: auto;
+        margin-left: 1010px ;
+        margin-top: 210px;
+        position: absolute;}
+    
+    .slider li {list-style: none;position: absolute;}
+    
+    .slider img {
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        vertical-align: top;}
+    
+    .slider input {display: none;}
+    
+    .slider label {
+        background-color: #000;
+        bottom: 10px;
+        cursor: pointer;
+        display: block;
+        height: 10px;
+        position: absolute;
+        width: 10px;
+        z-index: 10;}
+    
+    .slider li:nth-child(1) label {left: 10px;}
+    .slider li:nth-child(2) label {left: 40px;}
+    .slider li:nth-child(3) label {left: 70px;}
+    .slider li:nth-child(4) label {left: 100px;}
+    .slider li:nth-child(5) label {left: 130px;}
+    
+    .slider img {opacity: 0; visibility: hidden;}
+    
+    .slider li input:checked ~ img {opacity: 1;visibility: visible;z-index: 10;}
+
+.cal {position: absolute; 
+    left: 8%; top: 170px;}
+
+.hat {position: absolute; 
+    left: 28%; top: 900px;}
+
+.textcal {position: absolute; left: 16%;
+top: 955px;
+text-align: center;
+width: 500px;}
+
+.textvet {position: absolute; left: 57%;
+    top: 955px;
+    text-align: center;
+    width: 600px;}
+
+.texthat {position: absolute; left: 33%;
+    top: 1700px;
+    text-align: center;
+    width: 600px;}
+
+.botao1 {position: absolute; top: 1700px;}
+.botao1 a {color: #fff;}
+
+.suco1 {position: absolute;
+top: 1150px;} 
+.suco1{transition: all 1s;cursor: pointer;}
+.suco1:hover{filter: drop-shadow(15px 10px 5px rgb(138, 117, 168));}
+.suco2 {position: absolute;
+    top: 1150px;
+left: 640px;} 
+.suco2{transition: all 1s;cursor: pointer;}
+.suco2:hover{filter: drop-shadow(15px 10px 5px rgb(138, 117, 168));}
+.suco3 {position: absolute;
+    top: 1150px;
+left: 67%;} 
+.suco3{transition: all 1s;cursor: pointer;}
+.suco3:hover{filter: drop-shadow(15px 10px 5px rgb(138, 117, 168));}
+.textsuco {position:absolute; 
+    top: 1250px; 
+    left: 20px;
+    text-align: justify;
+    width: 1750px;}
+
+.petit1 {position: absolute; 
+    top: 1730px;}
+    .petit1{transition: all 1s;cursor: pointer;}
+    .petit1:hover{filter: drop-shadow(15px 10px 5px rgb(138, 117, 168));}
+.petit2 {position: absolute; 
+    top: 1730px;
+left:640px;}
+.petit2{transition: all 1s;cursor: pointer;}
+.petit2:hover{filter: drop-shadow(15px 10px 5px rgb(138, 117, 168));}
+.petit3 {position: absolute; 
+    top: 1730px;
+left: 67%;} 
+.petit3{transition: all 1s;cursor: pointer;}
+.petit3:hover{filter: drop-shadow(15px 10px 5px rgb(138, 117, 168));}
+.textpetit {position:absolute; 
+    top: 1860px; 
+    left: 20px;
+    text-align: justify;
+    width: 1750px;}
+
+.cartao {position: absolute;
+top: 2250px;
+left: 330px;}
+.textcartao {position: absolute;
+top: 2900px;
+left: 260px;}
+
+.livro {position: absolute;
+top: 2250px;
+left: 950px;}
+.textlivro {position: absolute;
+top: 2900px;
+left: 900px;}
+
+.monana {position: absolute;
+top: 180px;
+left: 25%;
+width: 1000px;}
+.detalhe1 {position: absolute;
+top: 150px;
+left: 23%;}
+.detalhe2 {position: absolute;
+top: 550px;
+left: 1180px;}
+
+.botao2 {position: absolute; top: 2800px;
+width: 100%;
+left: 0px;}
+.botao2 a {color: #fff;}
+
+.video1 {position: absolute;
+left: 5%;
+top: 200px;}
+
+.video2 {position: absolute;
+left: 51%;
+top: 850px;}
+
+.video3 {position: absolute;
+left: 5%;
+top: 1500px;}
+
+.botao3 {position: absolute; top: 2200px;
+width: 100%;
+left: 0px;}
+.botao3 a {color: #fff;}
+
+.decoration1 {position: absolute;
+    top: 290px;
+    left: 54%;
+    height:400px;
+    width: 700px;}
+.decoration2 {position: absolute;
+    top: 940px;
+    left: 7%;
+    height:400px;
+    width: 700px;}
+.decoration3 {position: absolute;
+    top: 1590px;
+    left: 54%;
+    height:400px;
+    width: 700px;}
